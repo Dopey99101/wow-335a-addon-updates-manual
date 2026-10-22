@@ -1,0 +1,44 @@
+REALMADDONSMANUAL {VERSION} - READ ME FIRST
+
+For the owner's standard WoW 3.3.5a (build 12340) realm client.
+
+1. Fully close all WoW windows.
+2. Extract the ENTIRE RAR into a temporary folder. Do not open individual MPQs.
+3. Find your game folder, for example C:\Games\WoW-3.3.5a.
+   It contains Wow.exe, Data and Interface. Do not select Interface\AddOns.
+4. Make a backup copy of your existing Wow.exe, Interface\AddOns, and any
+   Data\patch-L.MPQ, patch-M.MPQ and patch-N.MPQ, OUTSIDE your game folder.
+5. Open the extracted RealmAddonsManual folder. Copy its Interface folder,
+   Data folder and Wow.exe into your GAME FOLDER. Choose Merge for folders
+   and Replace for matching files. Do not delete your existing Data folder!
+6. Check the final locations:
+   YourGame\Wow.exe
+   YourGame\Data\patch-L.MPQ (and patch-M.MPQ / patch-N.MPQ)
+   YourGame\Interface\AddOns\StarterChauffeur (and other addon folders)
+   There must NOT be an extra RealmAddonsManual or Interface folder in between.
+7. Launch the copied Wow.exe. At character selection click AddOns and enable
+   the addons you want. Keep your existing realmlist and WTF settings.
+
+UPDATES: Repeat these steps with the newest version. Merge and replace files;
+do not erase extra addons. For removal or rollback, close WoW and restore your
+backup files; remove only newly added addon folders/patches from this package.
+
+The included matching Wow.exe enables the custom interface required by patch N.
+This is the standard client executable, not the UltraHD executable. This package
+does not install HD graphics or change your server address. If you have another
+custom patch-L/M/N, ask the owner before replacing that unrelated patch.
+
+There is NO installer, .cmd, .bat or PowerShell step. Nothing installs itself.
+Personal settings, account data, server files and database backups are excluded.
+Third-party credits and licenses remain in their addon folders.
+
+COMMANDS (unchanged):
+/chauffeur - summon the chauffeur.
+/chauffeur setup - restore the ride button.
+/chauffeur status - show Chauffeur version information.
+/hunterforge - check HunterForge server support.
+RealmNotices works automatically; it has no slash commands.
+MPQ client patches have no commands. See Guides for the full addon handbook.
+
+Permanent download link:
+https://github.com/Dopey99101/wow-335a-addon-updates-manual/releases/latest
