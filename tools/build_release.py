@@ -8,7 +8,7 @@ import re
 import shutil
 import subprocess
 
-PATCHES=('patch-L.MPQ','patch-M.MPQ','patch-N.MPQ')
+PATCHES=('patch-B.MPQ','patch-L.MPQ','patch-M.MPQ','patch-N.MPQ')
 EXCLUDED_DIRS={'.git','.svn','__pycache__','savedvariables','wtf','cache','logs','screenshots'}
 EXCLUDED_SUFFIXES={'.bak','.log','.pyc','.dmp','.sql','.tmp','.pfx','.pem','.key','.cmd','.bat','.ps1','.exe'}
 
@@ -85,7 +85,7 @@ def build(a):
              'handbook':handbook.name,'patches':list(PATCHES),'createdAt':manifest['createdAt']}
     (output/'release-manifest.json').write_text(json.dumps(release,indent=2),encoding='utf-8')
     (output/'SHA256SUMS.txt').write_text(release['sha256']+'  '+archive.name+'\n',encoding='ascii')
-    (output/'release-notes.md').write_text(f"RealmAddonsManual {a.version}\n\nManual installation: {len(folders)} addon folders, matching patches L/M/N, compatible Wow.exe, and addon handbook. Fully close WoW, extract, read READ-ME-FIRST.txt, back up replaced files, then copy Interface, Data and Wow.exe into the game folder. No installer or command files. Personal settings are excluded. Existing installer edition remains separate.\n",encoding='utf-8')
+    (output/'release-notes.md').write_text(f"RealmAddonsManual {a.version}\n\nManual installation: {len(folders)} addon folders, matching patches B/L/M/N, compatible Wow.exe, and addon handbook. Fully close WoW, extract, read READ-ME-FIRST.txt, back up replaced files, then copy Interface, Data and Wow.exe into the game folder. No installer or command files. Personal settings are excluded. Existing installer edition remains separate.\n",encoding='utf-8')
     print(json.dumps(release,indent=2))
 
 if __name__=='__main__':

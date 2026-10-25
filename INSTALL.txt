@@ -7,13 +7,15 @@ For the owner's standard WoW 3.3.5a (build 12340) realm client.
 3. Find your game folder, for example C:\Games\WoW-3.3.5a.
    It contains Wow.exe, Data and Interface. Do not select Interface\AddOns.
 4. Make a backup copy of your existing Wow.exe, Interface\AddOns, and any
-   Data\patch-L.MPQ, patch-M.MPQ and patch-N.MPQ, OUTSIDE your game folder.
+   Data\patch-B.MPQ, patch-L.MPQ, patch-M.MPQ and patch-N.MPQ, OUTSIDE your game folder.
+   If patch-B.MPQ already exists and was not provided by this realm, stop and ask
+   the owner before replacing it; it may belong to another custom patch.
 5. Open the extracted RealmAddonsManual folder. Copy its Interface folder,
    Data folder and Wow.exe into your GAME FOLDER. Choose Merge for folders
    and Replace for matching files. Do not delete your existing Data folder!
 6. Check the final locations:
    YourGame\Wow.exe
-   YourGame\Data\patch-L.MPQ (and patch-M.MPQ / patch-N.MPQ)
+   YourGame\Data\patch-B.MPQ (and patch-L.MPQ / patch-M.MPQ / patch-N.MPQ)
    YourGame\Interface\AddOns\StarterChauffeur (and other addon folders)
    There must NOT be an extra RealmAddonsManual or Interface folder in between.
 7. Launch the copied Wow.exe. At character selection click AddOns and enable
