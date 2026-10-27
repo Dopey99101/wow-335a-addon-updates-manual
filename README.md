@@ -4,7 +4,7 @@ Manual-install addons and required custom patches for our WoW 3.3.5a realm.
 
 **[Download the latest manual package](https://github.com/Dopey99101/wow-335a-addon-updates-manual/releases/latest)**
 
-Open the release and download `RealmAddonsManual-1.0.rar` (or the newer version shown).
+Open the release and download `RealmAddonsManual-1.6.rar` (or the newer version shown).
 Do not use GitHub's **Code → Download ZIP** or the release's source-code archives:
 those contain publishing tools, not the addon collection.
 
