@@ -29,8 +29,8 @@ Publishing tools live under tools/. Large addon files and the executable are att
 to versioned releases, not committed to Git. Existing release versions are preserved.
 
 ## Client Links
-Link to WoW-3.3.5a-ORIGINAL : https://www.mediafire.com/file_premium/btmvf0q3nqutgyh/RealmVoyager-1.0.rar/file                          
-Link to WoW-3.3.5a-ULTRAHD : https://www.mediafire.com/file_premium/67mpwkdfpf1fpw6/RealmVoyagerUltraHD-1.0.rar/file
+WoW-3.3.5a-ORIGINAL : https://wow-download-links.dopey99101.workers.dev/RealmVoyager-1.0.rar                          
+WoW-3.3.5a-ULTRAHD : https://wow-download-links.dopey99101.workers.dev/RealmVoyagerUltraHD-1.0.rar
 
 ## Addon list
 
